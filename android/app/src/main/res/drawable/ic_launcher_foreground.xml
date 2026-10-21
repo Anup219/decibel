@@ -1,0 +1,68 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <group
+        android:translateX="256"
+        android:translateY="256"
+        android:scaleX="1.2"
+        android:scaleY="1.2">
+        <group
+            android:translateX="-181"
+            android:translateY="-140">
+            <!-- Outer circle: cx=160, cy=150, r=62, stroke=12, color=#F2EFE9 -->
+            <path
+                android:fillColor="#00000000"
+                android:strokeColor="#F2EFE9"
+                android:strokeWidth="12"
+                android:pathData="M 98,150 a 62,62 0 1,0 124,0 a 62,62 0 1,0 -124,0" />
+
+            <!-- Middle circle: cx=160, cy=150, r=36, stroke=6, color=#FF6B4A -->
+            <path
+                android:fillColor="#00000000"
+                android:strokeColor="#FF6B4A"
+                android:strokeWidth="6"
+                android:pathData="M 124,150 a 36,36 0 1,0 72,0 a 36,36 0 1,0 -72,0" />
+
+            <!-- Inner circle dot: cx=160, cy=150, r=11, filled, color=#FF6B4A -->
+            <path
+                android:fillColor="#FF6B4A"
+                android:pathData="M 149,150 a 11,11 0 1,0 22,0 a 11,11 0 1,0 -22,0" />
+
+            <!-- Vertical stem: x=216, y=62, w=20, h=156, rx=10, fill=#F2EFE9 -->
+            <path
+                android:fillColor="#F2EFE9"
+                android:pathData="M 226,62 h 0 a 10,10 0 0,1 10,10 v 136 a 10,10 0 0,1 -10,10 h 0 a 10,10 0 0,1 -10,-10 v -136 a 10,10 0 0,1 10,-10 Z" />
+
+            <!-- Ticks at x=250 -->
+            <!-- Tick 0: y=77, w=22, h=6, rx=3, color=#FF6B4A -->
+            <path
+                android:fillColor="#FF6B4A"
+                android:pathData="M 253,77 h 16 a 3,3 0 0,1 3,3 v 0 a 3,3 0 0,1 -3,3 h -16 a 3,3 0 0,1 -3,-3 v 0 a 3,3 0 0,1 3,-3 Z" />
+
+            <!-- Tick 1: y=103, w=14, h=6, rx=3, color=#FF6B4A -->
+            <path
+                android:fillColor="#FF6B4A"
+                android:pathData="M 253,103 h 8 a 3,3 0 0,1 3,3 v 0 a 3,3 0 0,1 -3,3 h -8 a 3,3 0 0,1 -3,-3 v 0 a 3,3 0 0,1 3,-3 Z" />
+
+            <!-- Tick 2: y=129, w=22, h=6, rx=3, color=#F2EFE9, alpha=0.55 -->
+            <path
+                android:fillColor="#F2EFE9"
+                android:fillAlpha="0.55"
+                android:pathData="M 253,129 h 16 a 3,3 0 0,1 3,3 v 0 a 3,3 0 0,1 -3,3 h -16 a 3,3 0 0,1 -3,-3 v 0 a 3,3 0 0,1 3,-3 Z" />
+
+            <!-- Tick 3: y=155, w=14, h=6, rx=3, color=#F2EFE9, alpha=0.40 -->
+            <path
+                android:fillColor="#F2EFE9"
+                android:fillAlpha="0.4"
+                android:pathData="M 253,155 h 8 a 3,3 0 0,1 3,3 v 0 a 3,3 0 0,1 -3,3 h -8 a 3,3 0 0,1 -3,-3 v 0 a 3,3 0 0,1 3,-3 Z" />
+
+            <!-- Tick 4: y=181, w=22, h=6, rx=3, color=#F2EFE9, alpha=0.25 -->
+            <path
+                android:fillColor="#F2EFE9"
+                android:fillAlpha="0.25"
+                android:pathData="M 253,181 h 16 a 3,3 0 0,1 3,3 v 0 a 3,3 0 0,1 -3,3 h -16 a 3,3 0 0,1 -3,-3 v 0 a 3,3 0 0,1 3,-3 Z" />
+        </group>
+    </group>
+</vector>
